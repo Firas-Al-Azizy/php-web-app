@@ -14,7 +14,7 @@
 
         }else {
             header('Location: login.php?status=waiting-for-login');
-        }
+        }echo 'boo';
         ?>
         </h1>
         </div>
