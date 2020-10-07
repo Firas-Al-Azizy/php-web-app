@@ -1,0 +1,32 @@
+
+
+
+*{
+    margin : 0;
+    padding: 0;
+  
+}
+.wrapper
+{
+    height: 100vh;
+    padding-top: 15em;
+    background-color: #353635;
+    
+}
+.grid{
+    
+    margin: auto;
+
+    background-color: rgb(62, 116, 163);
+    height: 100px;
+    width: 29em;
+    
+}
+.animate {
+            display: inline-block;
+            margin-left: 3px;
+            height:20px;
+            width: 20px;
+            background-color: #467e46;
+            
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/anime.css" rel="stylesheet">
+    <title>Document</title>
+   
+</head>
+<body>
+    <div class="wrapper">
+    <div class="grid">
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        <div class="animate"></div>
+        
+    </div>
+
+    </div>
+    <script src="js/anime.min.js" >
+      
+    </script>
+    <script>
+           anime({
+            targets: '.animate',
+            rotateZ: anime.stagger( [0 , 90],{grid:[ 17 , 4] ,from:'center' , axis:'x'} ),
+            translateY: anime.stagger( 10,{grid:[ 17 , 4] ,from:'center' , axis:'y'} ),
+            translateX: anime.stagger( 10,{grid:[ 17 , 4] ,from:'center' , axis:'x'} ),
+
+            delay:anime.stagger(200,{grid:[17,4] , from:'center'}),
+            loop:true
+            
+            
+        });
+    </script>
+</body>
+</html>
