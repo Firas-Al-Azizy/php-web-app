@@ -1,7 +1,7 @@
  <?php
         session_start();
-        require '/header.php';
-        require '/nav.php';
+        require 'header.php';
+        require 'nav.php';
 ?>
         <div class="main-w3layouts wrapper" >
             <h1>
