@@ -1,18 +1,9 @@
 <!-- NAVIGATION -->
 <?php
-require '/header.php';
-require '/nav.php';
+require 'header.php';
+require 'nav.php';
 
-<<<<<<< HEAD
 ?>
-<!-- main -->
-=======
-	<!-- NAVIGATION -->
-	<?php 
-		require ('header.php');
-		require ('nav.php');
->>>>>>> d43ae1a25b7e64ec8af57921cd09d3ea0a70fb00
-
 <div class="main-w3layouts wrapper">
 	<div class="main-agileinfo">
 
