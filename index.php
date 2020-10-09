@@ -9,8 +9,7 @@
         
         if(isset($_SESSION['ID'])){
             $username = $_SESSION['USERNAME'];
-            echo "hello $username 
-            <a href=\"includes/logut.inc.php\">logout</a>";
+            echo "hello $username <a href=\"includes/logut.inc.php\">logout</a>";
 
         }else {
             header('Location: login.php?status=waiting-for-login');
