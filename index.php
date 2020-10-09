@@ -177,7 +177,7 @@
 <!-- Footer -->
 <footer class="py-5 bg-dark">
 <div class="container">
-  <p class="m-0 text-center text-white">Copyright 2020 &copy; <span style="font-family: lobster , cursive;">FEEDIT </span> </p>
+  <p class="m-0 text-center text-white">Copyright 2020; &copy; <span style="font-family: lobster , cursive;">FEEDIT </span> </p>
 </div>
 <!-- /.container -->
 </footer>
