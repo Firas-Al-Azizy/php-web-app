@@ -128,9 +128,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .main-w3layouts {
     padding: 3em 0 1em;
   }
-  .main-w3layouts .wrapper{
-    background: #121212;
-  }
+  
+
   
    .main-agileinfo {
     width: 35%;
@@ -796,3 +795,34 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background : #121212;
 
   }
+   .navbar-brand {
+    font-family: 'Lobster', cursive;
+  }
+  .nav-link{
+    font-family: "Roboto Mono";
+  }
+
+.article{
+  width: 60%;
+  line-break: auto;
+  margin: 3em auto;
+  height: 100vh;
+  text-align: left;
+
+}
+.article span{
+  float: right;
+}
+  
+.article h1
+{
+  
+  color: #000;
+  font-family: "Roboto";
+  border-bottom: 2px solid #313131ad;
+  text-align: left;
+}
+.article p
+{
+  font-size: large;
+}
