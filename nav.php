@@ -14,7 +14,7 @@
 				
 
 				<li class="nav-item">
-					<a class="nav-link" href="#">Featured </a>	
+					<a class="nav-link" href="article.php?id=all">Featured </a>	
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Topics</a>
@@ -26,6 +26,16 @@
 					</div>
 				</li>
 				<!--TODO profile for user route-->
+				<?php 
+					
+					if(isset($_COOKIE['uname'])){
+					echo '<li class="nav-item ml-3">
+					
+						<a class="nav-link   " href="profile.php"><i class="fas fa-user mr-2  "></i>'.$_COOKIE['uname'].' </a>	
+						
+					</li>';
+					}
+				?>
 
 			</ul>
 			<form>
@@ -39,4 +49,16 @@
 			</form>
 		</div>
 	</nav>
+
+	<script>
+		
+		$(".nav-link").on('click' , function(){
+			
+			localStorage.setItem('selectedPage' , this);
+
+			$(".nav-link").removeClass('active');
+			$(this).addClass('active');
+			
+		});
+	</script>
 

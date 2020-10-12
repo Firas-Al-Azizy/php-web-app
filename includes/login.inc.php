@@ -34,9 +34,12 @@ if (isset($_POST['login'])) {
                     exit();
                 } else if ($passwordCheck == true) {
                     session_start();
-                    $_SESSION["ID"] = $row['id'];
+                    $_SESSION["ID"] = $row['uid'];
                     $_SESSION["USERNAME"] = $row['username'];
-                    header("Location: ../index.php?login=success&username=" . $row['username']);
+                    setcookie("uname", $row['username'] , time()*8600 , "/" , "" , 0);
+                    setcookie("id", $row['uid'] , time()*8600 , "/" , "" , 0);
+                    
+                    header("Location: ../index.php?login=success&username=".$_COOKIE['uname']);
                     exit();
                 } else {
                     header("Location: ../login.php?error=password-or-username-incorrect");

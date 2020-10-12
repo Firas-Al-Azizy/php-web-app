@@ -16,7 +16,7 @@ require 'nav.php';
 
 				<input type="submit" value="LOGIN" name="login" style="margin-top: 15px;">
 			</form>
-			<p>Do you have an Account? <a href="signUp."> Sign Up!</a></p>
+			<p>Do you have an Account? <a href="signUp.php"> Sign Up!</a></p>
 		</div>
 	</div>
 	<!-- copyright -->
